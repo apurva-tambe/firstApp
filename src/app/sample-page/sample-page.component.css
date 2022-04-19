@@ -1,0 +1,35 @@
+*,body{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(to left,rgba(193, 44, 44, 0.9),rgba(50, 102, 223, 0.5)),url("../../assets/pexels-azhar-khan-5661487.jpg");
+    background-size: cover;
+    color: white;
+}
+.h-100{
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    border-radius: 10rem !important;
+    padding: 1rem 1rem !important;
+}
+.message{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.myicon{
+    font-size: 60px;
+    padding: 20px;
+}
+.title-heading{
+    /* font-weight: 300 !important; */
+    font-size: 24px;
+}
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
