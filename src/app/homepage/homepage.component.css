@@ -1,13 +1,55 @@
-.navbar {
-    background-color:#ace0f0 ;
+
+*,body{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
 }
-.nav-link{
-    color: red;
-}
-.myicon{
-  color: black;
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(241 4 50 / 93%);
 }
 .main{
-    background-color:#ace0f0 ;
-    height: 1080px;
+    background-color: #ace0f0;
 }
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-img-top {
+    width: 100%;
+    /* height: 15vw; */
+    object-fit: cover;
+}
+.card-img-caption {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+  }
+    
+  .card-img-caption .card-img-top {
+    z-index: 0;
+  }
+      
+  .card-img-caption .card-text {
+    text-align: center;
+    width: 100%;
+    margin: 33% 0;
+    position: absolute;
+    z-index: 1;
+  }
+.row_title{
+  padding-right: calc(var(--bs-gutter-x) * .5);
+}
+.message{
+    padding-left: 35%;
+}
+.card-icon{
+  border-radius: 0;
+}
+.superstars{
+  background-color: #f5f9fa;
+}
+@media(max-width: 575.98px)
+ { 
+  margin-bottom: 5%;
+  
+  margin-left: 50%;
+ }
