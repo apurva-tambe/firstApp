@@ -1,0 +1,48 @@
+h1,h2{
+    color: #e03c31;
+    font: bold;
+    
+  }
+  .main{
+    background-color: #ace0f0;
+}
+
+.card{
+    border-radius: 2pc;
+}
+.lhr{
+    background-color:#d6ecf3;
+}
+.card-icon{
+    border-radius: 0;
+}
+.skinnsi_footer{
+    background-color: #CBECF6;
+  }
+
+  .loveletters{
+    background-color: #f5f9fa;
+  }
+  .card_info{
+    text-align: center;
+    }
+    .card{
+        box-shadow: 0 3px 10px rgb(0 0 0 / 25%);
+      }
+      .fa fa-angle-down{
+        margin-left: 60%;
+      }
+      .lhr{
+        background-color: #eafaff;
+      }
+      .container_define {
+        font-size: 16px;
+        line-height: 16px;
+        height: 32px;
+        overflow: hidden;
+      }
+      .show {
+        overflow: visible;
+        height: auto;
+      }
+      

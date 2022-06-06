@@ -5,16 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HomepageComponent } from './homepage/homepage.component';
+import { DemohairComponent } from './demohair/demohair.component';
+import { LaserhairreductionComponent } from './laserhairreduction/laserhairreduction.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
   
-    HomepageComponent
+    HomepageComponent,
+       DemohairComponent,
+       LaserhairreductionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
